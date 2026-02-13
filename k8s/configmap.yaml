@@ -9,3 +9,4 @@ data:
     motd=A Minecraft Server on k8s
     max-players=20
     online-mode=false
+    
