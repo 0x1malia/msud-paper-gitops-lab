@@ -13,6 +13,8 @@ spec:
       labels:
         app: katie-paper
     spec:
+      securityContext:
+        fsGroup: 1000
       containers:
         - name: paper
           image: ghcr.io/0x1malia/msud-paper-gitops-lab:latest
